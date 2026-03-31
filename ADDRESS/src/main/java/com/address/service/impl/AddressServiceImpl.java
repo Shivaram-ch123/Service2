@@ -21,7 +21,7 @@ public class AddressServiceImpl implements AddressService {
 	@Autowired
 	private ModelMapper modelMapper;
 
-	@Autowired
+	@Autowired                     
 	private RestTemplate restTemplate; // Step 2: Inject here
 
 	// Step 2: method to check employee existence
